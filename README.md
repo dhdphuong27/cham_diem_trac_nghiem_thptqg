@@ -1,6 +1,6 @@
 # Công cụ chấm điểm bài thi THPT Quốc gia 2025
 
-Đây là một phần của công cụ tự động chấm điểm bài thi trắc nghiệm cho Kỳ thi Tốt nghiệp Trung học Phổ thông Quốc gia năm 2025 tại Việt Nam.
+Đây là dự án cá nhân dùng để rèn luyện các phương pháp xử lý ảnh số, với mục tiêu là scan kết quả từ tờ bài làm trắc nghiệm THPTQG 2025.
 
 Dự án này sử dụng các kỹ thuật xử lý ảnh với OpenCV để:
 
@@ -36,3 +36,10 @@ Dự án này sử dụng các kỹ thuật xử lý ảnh với OpenCV để:
 **Đóng góp:**
 
 Mọi đóng góp để cải thiện công cụ này đều được hoan nghênh!
+
+**Thông tin liên lạc:**
+
+Nếu cần hỗ trợ hoặc có câu hỏi, có thể tạo issue hoặc liên lạc qua các kênh thông tin dưới đây
+Email: dhdongphuong27@gmail.com
+SĐT: 0522052709
+Facebook: https://www.facebook.com/dhdongphuong27/
