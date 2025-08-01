@@ -12,8 +12,7 @@ Dự án này sử dụng các kỹ thuật xử lý ảnh với OpenCV để:
 
 - Sử dụng OpenCV và các thư viện liên quan (`numpy`, `imutils`).
 - Áp dụng các bước tiền xử lý ảnh như chuyển sang ảnh xám, làm mờ và phân ngưỡng Otsu.
-- Phát hiện và sắp xếp các ô đáp án (contours).
-- Xác định các ô được tô sáng (bubbled indices) dựa trên số lượng pixel khác không.
+- Xác định các ô được tô dựa trên số lượng pixel khác không.
 - Trích xuất và định dạng kết quả cho từng phần của bài thi.
 
 **Yêu cầu:**
@@ -39,7 +38,8 @@ Mọi đóng góp để cải thiện công cụ này đều được hoan nghê
 
 **Thông tin liên lạc:**
 
-Nếu cần hỗ trợ hoặc có câu hỏi, có thể tạo issue hoặc liên lạc qua các kênh thông tin dưới đây
-Email: dhdongphuong27@gmail.com
-SĐT: 0522052709
-Facebook: https://www.facebook.com/dhdongphuong27/
+Nếu cần hỗ trợ hoặc có câu hỏi, có thể tạo issue hoặc liên lạc qua các kênh thông tin dưới đây:
+
+- Email: dhdongphuong27@gmail.com
+- SĐT: 0522052709
+- Facebook: https://www.facebook.com/dhdongphuong27/
