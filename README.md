@@ -25,10 +25,15 @@ Dự án này sử dụng các kỹ thuật xử lý ảnh với OpenCV để:
 - imutils
 
 **Cách sử dụng:**
-
+***Google Colab***
 - Sử dụng local storage của google colab hoặc đăng ảnh lên các công cụ host ảnh free, như https://freeimage.host/.
 - Ảnh demo: https://iili.io/FPWy7sf.jpg ; Tờ đề bài chưa tô: https://iili.io/FPXy7Gj.jpg
-- Nếu tải về và chạy dưới dạng file python, cần cài các thư viện yêu cầu bên trên và chuyển cv2_imshow thành cv2.imshow
+***Chạy offline***
+- Đặt file ảnh vào folder input và chạy file detectandgrading.py bằng cách
+  + python detectandgrading.py mssv_made (ở đây mssv_made là mã học sinh và mã đề chuẩn, dùng làm mẫu để tính điểm theo thang điểm của bgd)
+  + python detectandgrading.py (chỉ quét và lưu kết quả mà không chấm điểm)
+
+Có thể custome các biến sau trong khi gọi AnswerSheetScanner 
 - EXAM_CODE_NUMBER: số mã đề thi, tờ đề 2025 có 2 loại, 1 loại 3 số và 1 loại 4 số
 - CUSTOM_THRESHOLD: threshold custom nếu phương pháp Otsu không thực hiện được/bị lỗi
 - Nếu không thể detect được contours do ảnh bị mờ/tương phản cao, sử dụng hàm preprocess_img_threshold và chọn threshold thay vì preprocess_img
@@ -36,7 +41,7 @@ Dự án này sử dụng các kỹ thuật xử lý ảnh với OpenCV để:
 
 **Lưu ý:**
 
-- Ở đây sử dụng findContours thay vì HoughCircles vì tốc độ xử lý nhanh hơn, và có thể xử lý được một số trường hợp tô lem ra ngoài.
+- Ở đây sử dụng findContours thay vì HoughCircles vì tốc độ xử lý nhanh hơn, và có thể xử lý được một số trường hợp tô lem nhẹ.
 - Việc xử lý các vấn đề về chất lượng ảnh có thể cần các cải tiến bổ sung.
 
 **Cải tiến:**
